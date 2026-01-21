@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[identity]
+  enabled = true
+
+[identity.roles]
+  allowed = ["admin", "editor"]
+
+[[redirects]]
+  from = "/admin"
+  to = "/admin/"
+  status = 200
