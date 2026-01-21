@@ -12,4 +12,3 @@
   from = "/admin"
   to = "/admin/"
   status = 200
-
