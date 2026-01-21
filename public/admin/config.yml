@@ -9,7 +9,8 @@ collections:
   - name: "landing"
     label: "Лендинг"
     files:
-      - file: "content/landing.json"
+      - name: "landing_settings"
+        file: "content/landing.json"
         label: "Настройки"
         fields:
           - { label: "Цена", name: "price", widget: "number" }
