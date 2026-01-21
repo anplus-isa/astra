@@ -11,4 +11,4 @@
 [[redirects]]
   from = "/admin"
   to = "/admin/"
-  status = 200
+  status = 20011
